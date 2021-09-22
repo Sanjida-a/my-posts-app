@@ -10,11 +10,13 @@
         border-radius: 50%;
       }
     
+    
 }
 .bioContent{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
 }
 .bioName{
     font-weight: 900;

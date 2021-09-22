@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Bio from '../components/Bio';
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Post from '../components/post/Post'
@@ -13,7 +14,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My Posts
+        <Bio
+          headshot='https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+          name = "Samantha Fayokh"
+          tagline = "Expressing myself through words"
+          role = "Journalist @ ABC"
+        />
         </h1>
 
         <ul className ={styles.posts}>
